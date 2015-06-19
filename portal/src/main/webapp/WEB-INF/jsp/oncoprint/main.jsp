@@ -30,6 +30,7 @@
  - along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --%>
 
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
         
 <div id="oncoprint" style="padding-top:10px; padding-bottom:10px; padding-left:10px; border: 1px solid #CCC;">
     <img id="outer_loader_img" src="images/ajax-loader.gif"/>

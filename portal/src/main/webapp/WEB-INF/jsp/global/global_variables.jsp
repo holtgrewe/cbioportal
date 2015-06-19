@@ -55,6 +55,7 @@
 <%@ page import="org.mskcc.cbio.portal.dao.DaoGeneticProfile" %>
 <%@ page import="org.apache.commons.logging.LogFactory" %>
 <%@ page import="org.apache.commons.logging.Log" %>
+<%@ page import="org.apache.commons.lang.StringUtils" %>
 <%@ page import="org.apache.commons.lang.StringEscapeUtils" %>
 <%@ page import="java.lang.reflect.Array" %>
 <%@ page import="static org.mskcc.cbio.portal.servlet.QueryBuilder.INTERNAL_EXTENDED_MUTATION_LIST" %>

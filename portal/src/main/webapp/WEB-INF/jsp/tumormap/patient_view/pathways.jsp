@@ -30,6 +30,8 @@
  - along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --%>
 
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
+
 <%
 request.setAttribute("include_network_help_tab", Boolean.FALSE);
 request.setAttribute("include_network_legend", Boolean.FALSE);

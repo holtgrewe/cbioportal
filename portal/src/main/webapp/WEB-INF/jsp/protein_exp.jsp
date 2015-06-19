@@ -30,6 +30,7 @@
  - along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --%>
 
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
 <%@ page import="org.mskcc.cbio.portal.servlet.ProteinArraySignificanceTestJSON" %>
 <%@ page import="org.mskcc.cbio.portal.servlet.QueryBuilder" %>
 <%@ page import="org.mskcc.cbio.portal.web_api.GetProteinArrayData" %>

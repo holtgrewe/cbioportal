@@ -30,6 +30,7 @@
  - along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --%>
 
+<%@ page import="org.apache.commons.lang.StringEscapeUtils" %>
 <%@ page import="org.mskcc.cbio.portal.servlet.QueryBuilder" %>
 <%
     String step4ErrorMsg = (String) request.getAttribute(QueryBuilder.STEP4_ERROR_MSG);

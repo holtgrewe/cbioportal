@@ -30,6 +30,8 @@
  - along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --%>
 
+<%@ page import="org.mskcc.cbio.portal.servlet.QueryBuilder" %>
+
 <%
     String step1ErrorMsg = (String) request.getAttribute(QueryBuilder.STEP1_ERROR_MSG);
 %>

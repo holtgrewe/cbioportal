@@ -31,6 +31,7 @@
 --%>
 
 <%@ page import="org.mskcc.cbio.portal.servlet.SimilarPatientsJSON" %>
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
 
 <%if(showPlaceHoder){%>
 A genomic overview with events aligned across patients goes here...

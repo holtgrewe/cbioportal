@@ -30,6 +30,8 @@
  - along with this program.  If not, see <http://www.gnu.org/licenses/>.
 --%>
 
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
+
 <div class='section' id='mutation_details'>
 	<img src='images/ajax-loader.gif'/>
 </div>

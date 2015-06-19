@@ -37,6 +37,7 @@
 <%@ page import="org.mskcc.cbio.portal.model.DownloadLink" %>
 <%@ page import="java.util.ArrayList" %>
 <%@ page import="org.mskcc.cbio.portal.servlet.QueryBuilder" %>
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
 
 <script type="text/javascript" src="js/src/data_download.js?<%=GlobalProperties.getAppVersion()%>"></script>
 

@@ -33,6 +33,7 @@
 
 <%@ page import="org.mskcc.cbio.portal.servlet.TumorMapServlet" %>
 <%@ page import="org.mskcc.cbio.portal.servlet.QueryBuilder" %>
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
 
 <%
 request.setAttribute("tumormap", true);

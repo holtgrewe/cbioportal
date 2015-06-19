@@ -33,6 +33,7 @@
 <%@ page import="org.mskcc.cbio.portal.servlet.PatientView" %>
 <%@ page import="org.mskcc.cbio.portal.servlet.MutationsJSON" %>
 <%@ page import="org.mskcc.cbio.portal.dao.DaoMutSig" %>
+<%@ page import="org.mskcc.cbio.portal.util.GlobalProperties" %>
 
 <script type="text/javascript" src="js/lib/igv_webstart.js?<%=GlobalProperties.getAppVersion()%>"></script>
 <script type="text/javascript" src="js/src/patient-view/PancanMutationHistogram.js?<%=GlobalProperties.getAppVersion()%>"></script>
